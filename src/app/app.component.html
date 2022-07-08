@@ -4,5 +4,9 @@
   <br>
   <img [src]="dadoDerecha" class="image">
   <img [src]="dadoIzquierda" class="image">
-  <h1 *ngIf="gano==true" class="bg bg-warning">Ganaste Champion...!!!</h1>
+  <span *ngIf="gano==true">
+    <h1 class="bg bg-warning">Ganaste Champion...!!!</h1>
+    <img [src]="copa" class="copa">
+  </span>
+
 </div>

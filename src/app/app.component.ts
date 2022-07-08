@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   dadoIzquierda:string = '../assets/img/dice1.png';
   dadoDerecha:string = '../assets/img/dice4.png';
+  copa:string = '../assets/img/copa.png';
   numero1:number=1;
   numero2:number=1;
   gano:boolean=false;
